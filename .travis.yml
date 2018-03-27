@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: jj9Zw7PqtQj4OBMy8J4pFIKsRsHZSuQADsSAjsJH+38IXoZR49pG4xfbygTpw+kU/SYpCVJabhnK84PIyhx/jYlzrXZzNxTvEhj5e8uHf8uF6J303LxnCPCQrqMYb5WAuK6WjjIEJjp0ZvBRrGlny3NHKYeqx0YMBkd78M7bksvByeQQ9z/o6Ya4NuiFiYUI4qDY0KTgidTCey7D6rqoDl75ROvwtVgmCSKOeBA2B1NbJJXlEmyEETG332bvZ7C9jZ2RJpz47OQtOVeHKDgaGLErEye5vP8iU+yTotdF9TgyzLxLDSPApNE+ZNBGzC0C4tcpdIt60EoOrkP9+m1X6Z5/FA/qKjQ2o/BBjvTjnvy+xgwoWelfHWclxM16KH8sQjjWTs3rQ/MAzPkb2GMSlhe3fMiwkeeF53y1PTOhN2H65XIV8NcreglsdlG4DxgJ6vJUXI/3ZpuFuBF3nCaIEtjXAfs+U+CbVTaU8Elqn8kmcINK8/rP3TuKSu6aoT9h0g6j9L2gjn+0gPDU817/KWmgv4iayCDfb19EOF1Mx8Rt4rolFTRrT1Qj2ITFumPzMYT+yAoI7QF1AqNZ26KBnCdgv9fO3HaceApCb50VYPYLoiy4PCECmXjNDdbNvZW+G916+IRI99ceXV/aGU6o55C+Wg9BmSZ6fle9Z0hWmPI=
+  app: dry-river-49525
+  on:
+    repo: Quanda/Blog-API-Challenge
